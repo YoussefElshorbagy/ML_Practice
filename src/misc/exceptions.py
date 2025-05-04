@@ -1,6 +1,4 @@
-
 import sys
-import logging
 
 def error_message_detail(error, error_detail:sys):      ## Function to be called when an exception is called / An error occurs
     _,_,exc_tb = error_detail.exc_info()                ## First 2 outputs are irrelevent. The 3rd output contains all details regarding the error
