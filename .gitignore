@@ -128,8 +128,6 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-.artifacts
-artifacts/
 .env
 .venv
 env/
@@ -174,3 +172,8 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+#Stuff I added
+.artifacts
+artifacts/
+.main.py
