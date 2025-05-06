@@ -27,7 +27,7 @@ def save_object(file_path, obj):
 def load_object(file_path):
     try:
         with open(file_path, "rb") as file_obj:
-            pickle.load(file_path)
+            return pickle.load(file_obj)
 
         logging.info(f"Loaded pickle object from {file_path}")
 
