@@ -22,10 +22,8 @@ class PredictPipeline:
             preprocessor = load_object(preprocessor_path)
             logging.info("Fetched model and preprocessor")
 
-            print("DEBUG!!!!!!!!!!!")
 
             logging.info("Transforming input data and predicting...")
-            print('HERE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!')
             print(features)
             scaled_data = preprocessor.transform(features)
             result = model.predict(scaled_data)

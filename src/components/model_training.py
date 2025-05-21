@@ -126,8 +126,5 @@ class ModelTraining():
             return best_model_score
             
 
-            ### THIS DOES NOT GIVE THE BEST HYPER PARAMETERS. ONLY THE BEST ML MODEL
-            ### I tried to add this functionality ^
-
         except Exception as e:
             raise CustomException(e, sys)
